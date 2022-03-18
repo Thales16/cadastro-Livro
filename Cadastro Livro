@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title> Livros</title>
+</head>
+<body>
+
+	<h1>Cadastro dos Livros</h1>
+
+
+	<form action="Livros.php" method="post">
+		
+		<p>
+			<label>Nome:</label><br>
+			<input type="text" name="Nome" maxlength="150">
+		</p>
+
+		<p>
+			<label>Categoria:</label><br>
+			<input type="text" name="Categoria" maxlength="150">
+		</p>
+
+		<p>
+			<label>Escritor:</label><br>
+			<input type="text" name="Escritor" maxlength="150">
+		</p>
+
+		<p>
+			<label>Ano de lançamento:</label><br>
+			<input type="number" name="ano" min="1950" max="2021">
+		</p>
+
+		<p>
+			<button type="submit" name="cadastrar">Cadastrar</button>
+		</p>
+
+		<h4><a href="Livro.php">Ver Livros</a></h4>
+
+
+
+	</form>
+
+
+</body>
+</html>
